@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a3038fcaa87500107f4401c95c61cf3d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Loaner Laptop</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_snc_loaner_reque">28c77da901fd00107f444f556d194eb1</sys_package>
@@ -35,15 +35,15 @@
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_update_name>sys_hub_flow_a3038fcaa87500107f4401c95c61cf3d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:23</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:43</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=a3038fcaa87500107f4401c95c61cf3d"/>
     <sys_variable_value action="delete_multiple" query="document_key=a3038fcaa87500107f4401c95c61cf3d"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_snc_loaner_reque_loaner_request">item_type=cmdb_ci_laptop^state=-5<item display_value="cmdb_ci_laptop" endquery="false" field="item_type" goto="false" newquery="false" operator="=" or="false" value="cmdb_ci_laptop"/>
-            <item display_value="Pending" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="-5"/>
+        <condition table="x_snc_loaner_reque_loaner_request">item_type=cmdb_ci_laptop^state=14<item display_value="Laptop" endquery="false" field="item_type" goto="false" newquery="false" operator="=" or="false" value="cmdb_ci_laptop"/>
+            <item display_value="Reserved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="14"/>
         </condition>
         <name/>
         <on_delete>false</on_delete>
@@ -59,11 +59,11 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3239874a49b100107f440d3abf7428dd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:43</sys_updated_on>
         <table>x_snc_loaner_reque_loaner_request</table>
     </sys_flow_record_trigger>
     <sys_hub_flow_component action="delete_multiple" query="flow=a3038fcaa87500107f4401c95c61cf3d^sys_idNOT IN2088cf0a49b100107f440d3abf7428f3,7b044b0ea87500107f4401c95c61cfe4,9265c34ea87500107f4401c95c61cfdb,e088cf0a49b100107f440d3abf7428f8,e544cb0ea87500107f4401c95c61cf95,ef160b4ea87500107f4401c95c61cfe8"/>
@@ -82,10 +82,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:32:13</sys_created_on>
         <sys_id>2088cf0a49b100107f440d3abf7428f3</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:23</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:43</sys_updated_on>
         <ui_id>cbcfa2ce-6c65-4b97-8182-5ee62cd200a2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2088cf0a49b100107f440d3abf7428f3"/>
@@ -97,10 +97,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:20</sys_created_on>
         <sys_id>1e39874a49b100107f440d3abf742818</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:20</sys_updated_on>
-        <value>state=2</value>
+        <sys_updated_on>2019-12-20 10:18:33</sys_updated_on>
+        <value>state=16</value>
         <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -233,10 +233,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:12:46</sys_created_on>
         <sys_id>7b044b0ea87500107f4401c95c61cfe4</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:23</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:43</sys_updated_on>
         <ui_id>4b1cf0f3-fe5e-4313-b11e-e2178cdf170e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7b044b0ea87500107f4401c95c61cfe4"/>
@@ -262,10 +262,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:20</sys_created_on>
         <sys_id>5e39874a49b100107f440d3abf742811</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:20</sys_updated_on>
-        <value>state=2</value>
+        <sys_updated_on>2019-12-20 10:18:33</sys_updated_on>
+        <value>state=15</value>
         <variable display_value="">5ff92c160b10030085c083eb37673ac1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -384,10 +384,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:18:41</sys_created_on>
         <sys_id>9265c34ea87500107f4401c95c61cfdb</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:23</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:43</sys_updated_on>
         <ui_id>f095202f-4e1b-4776-b730-286af0015c96</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9265c34ea87500107f4401c95c61cfdb"/>
@@ -535,10 +535,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:32:13</sys_created_on>
         <sys_id>e088cf0a49b100107f440d3abf7428f8</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:23</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:43</sys_updated_on>
         <ui_id>995ff3b8-6424-4508-bcff-d3f1b2de24aa</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e088cf0a49b100107f440d3abf7428f8"/>
@@ -686,10 +686,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:13:43</sys_created_on>
         <sys_id>e544cb0ea87500107f4401c95c61cf95</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:23</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:43</sys_updated_on>
         <ui_id>e9b7c275-89ae-40b5-a335-0d1f19a31344</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e544cb0ea87500107f4401c95c61cf95"/>
@@ -729,10 +729,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:20</sys_created_on>
         <sys_id>9e39874a49b100107f440d3abf742813</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:20</sys_updated_on>
-        <value>state=1</value>
+        <sys_updated_on>2019-12-20 10:18:33</sys_updated_on>
+        <value>state=18</value>
         <variable display_value="">5ff92c160b10030085c083eb37673ac1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -837,10 +837,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:21:46</sys_created_on>
         <sys_id>ef160b4ea87500107f4401c95c61cfe8</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:23</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:43</sys_updated_on>
         <ui_id>0f305f51-c16e-420b-a7d8-2eb4affde136</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ef160b4ea87500107f4401c95c61cfe8"/>
@@ -983,10 +983,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:09:59</sys_created_on>
         <sys_id>7e63070ea87500107f4401c95c61cfb5</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:23</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:43</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1001,10 +1001,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:09:59</sys_created_on>
         <sys_id>3263070ea87500107f4401c95c61cfb7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:09:59</sys_updated_on>
-        <value>item_type=cmdb_ci_laptop^state=-5</value>
+        <sys_updated_on>2019-12-20 10:18:33</sys_updated_on>
+        <value>item_type=cmdb_ci_laptop^state=14</value>
         <variable display_value="">707dd180c32222002841b63b12d3aecb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1096,14 +1096,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:09:59</sys_created_on>
         <sys_id>3663070ea87500107f4401c95c61cfa3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1177,14 +1177,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:09:59</sys_created_on>
         <sys_id>fe63070ea87500107f4401c95c61cf9c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1212,10 +1212,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:32:13</sys_created_on>
         <sys_id>2088cf0a49b100107f440d3abf7428f3</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:23</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:43</sys_updated_on>
         <ui_id>cbcfa2ce-6c65-4b97-8182-5ee62cd200a2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2088cf0a49b100107f440d3abf7428f3"/>
@@ -1227,10 +1227,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:20</sys_created_on>
         <sys_id>1e39874a49b100107f440d3abf742818</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:20</sys_updated_on>
-        <value>state=2</value>
+        <sys_updated_on>2019-12-20 10:18:33</sys_updated_on>
+        <value>state=16</value>
         <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1363,10 +1363,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:12:46</sys_created_on>
         <sys_id>7b044b0ea87500107f4401c95c61cfe4</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:23</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:43</sys_updated_on>
         <ui_id>4b1cf0f3-fe5e-4313-b11e-e2178cdf170e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7b044b0ea87500107f4401c95c61cfe4"/>
@@ -1392,10 +1392,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:20</sys_created_on>
         <sys_id>5e39874a49b100107f440d3abf742811</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:20</sys_updated_on>
-        <value>state=2</value>
+        <sys_updated_on>2019-12-20 10:18:33</sys_updated_on>
+        <value>state=15</value>
         <variable display_value="">5ff92c160b10030085c083eb37673ac1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1514,10 +1514,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:18:41</sys_created_on>
         <sys_id>9265c34ea87500107f4401c95c61cfdb</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:23</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:43</sys_updated_on>
         <ui_id>f095202f-4e1b-4776-b730-286af0015c96</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9265c34ea87500107f4401c95c61cfdb"/>
@@ -1665,10 +1665,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:32:13</sys_created_on>
         <sys_id>e088cf0a49b100107f440d3abf7428f8</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:23</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:43</sys_updated_on>
         <ui_id>995ff3b8-6424-4508-bcff-d3f1b2de24aa</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e088cf0a49b100107f440d3abf7428f8"/>
@@ -1816,10 +1816,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:13:43</sys_created_on>
         <sys_id>e544cb0ea87500107f4401c95c61cf95</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:23</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:43</sys_updated_on>
         <ui_id>e9b7c275-89ae-40b5-a335-0d1f19a31344</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e544cb0ea87500107f4401c95c61cf95"/>
@@ -1859,10 +1859,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:20</sys_created_on>
         <sys_id>9e39874a49b100107f440d3abf742813</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:20</sys_updated_on>
-        <value>state=1</value>
+        <sys_updated_on>2019-12-20 10:18:33</sys_updated_on>
+        <value>state=18</value>
         <variable display_value="">5ff92c160b10030085c083eb37673ac1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1967,10 +1967,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:21:46</sys_created_on>
         <sys_id>ef160b4ea87500107f4401c95c61cfe8</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:23</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:43</sys_updated_on>
         <ui_id>0f305f51-c16e-420b-a7d8-2eb4affde136</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ef160b4ea87500107f4401c95c61cfe8"/>
@@ -2194,7 +2194,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a239874a49b100107f440d3abf742888</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2202,7 +2202,7 @@
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:21</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:43</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=a239874a49b100107f440d3abf742888"/>
@@ -2223,10 +2223,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>2a39874a49b100107f440d3abf7428a7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
         <ui_id>4b1cf0f3-fe5e-4313-b11e-e2178cdf170e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2a39874a49b100107f440d3abf7428a7"/>
@@ -2252,10 +2252,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>6239874a49b100107f440d3abf7428a9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
-        <value>state=2</value>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
+        <value>state=15</value>
         <variable display_value="">5ff92c160b10030085c083eb37673ac1</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=2a39874a49b100107f440d3abf7428a7"/>
@@ -2310,10 +2310,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>2e39874a49b100107f440d3abf7428aa</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
         <ui_id>e9b7c275-89ae-40b5-a335-0d1f19a31344</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2e39874a49b100107f440d3abf7428aa"/>
@@ -2339,10 +2339,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>6639874a49b100107f440d3abf7428ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
-        <value>state=1</value>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
+        <value>state=18</value>
         <variable display_value="">5ff92c160b10030085c083eb37673ac1</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=2e39874a49b100107f440d3abf7428aa"/>
@@ -2397,10 +2397,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>3639874a49b100107f440d3abf7428ba</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
         <ui_id>995ff3b8-6424-4508-bcff-d3f1b2de24aa</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3639874a49b100107f440d3abf7428ba"/>
@@ -2484,10 +2484,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>7239874a49b100107f440d3abf7428b3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
         <ui_id>cbcfa2ce-6c65-4b97-8182-5ee62cd200a2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7239874a49b100107f440d3abf7428b3"/>
@@ -2513,10 +2513,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>ba39874a49b100107f440d3abf7428b4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
-        <value>state=2</value>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
+        <value>state=16</value>
         <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=7239874a49b100107f440d3abf7428b3"/>
@@ -2571,10 +2571,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>ba39874a49b100107f440d3abf7428b6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
         <ui_id>0f305f51-c16e-420b-a7d8-2eb4affde136</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ba39874a49b100107f440d3abf7428b6"/>
@@ -2658,10 +2658,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>ee39874a49b100107f440d3abf7428ae</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
         <ui_id>f095202f-4e1b-4776-b730-286af0015c96</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ee39874a49b100107f440d3abf7428ae"/>
@@ -2740,10 +2740,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>3639874a49b100107f440d3abf7428bc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:43</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -2758,10 +2758,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>3e39874a49b100107f440d3abf7428bd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
-        <value>item_type=cmdb_ci_laptop^state=-5</value>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
+        <value>item_type=cmdb_ci_laptop^state=14</value>
         <variable display_value="">707dd180c32222002841b63b12d3aecb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2795,7 +2795,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2812,8 +2812,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -2853,14 +2853,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:21</sys_created_on>
         <sys_id>aa39874a49b100107f440d3abf74288a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:21</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2876,7 +2876,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2934,14 +2934,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:21</sys_created_on>
         <sys_id>ae39874a49b100107f440d3abf74289c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:21</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2969,10 +2969,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>2a39874a49b100107f440d3abf7428a7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
         <ui_id>4b1cf0f3-fe5e-4313-b11e-e2178cdf170e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2a39874a49b100107f440d3abf7428a7"/>
@@ -2998,10 +2998,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>6239874a49b100107f440d3abf7428a9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
-        <value>state=2</value>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
+        <value>state=15</value>
         <variable display_value="">5ff92c160b10030085c083eb37673ac1</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=2a39874a49b100107f440d3abf7428a7"/>
@@ -3056,10 +3056,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>2e39874a49b100107f440d3abf7428aa</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
         <ui_id>e9b7c275-89ae-40b5-a335-0d1f19a31344</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2e39874a49b100107f440d3abf7428aa"/>
@@ -3085,10 +3085,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>6639874a49b100107f440d3abf7428ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
-        <value>state=1</value>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
+        <value>state=18</value>
         <variable display_value="">5ff92c160b10030085c083eb37673ac1</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=2e39874a49b100107f440d3abf7428aa"/>
@@ -3143,10 +3143,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>3639874a49b100107f440d3abf7428ba</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
         <ui_id>995ff3b8-6424-4508-bcff-d3f1b2de24aa</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3639874a49b100107f440d3abf7428ba"/>
@@ -3230,10 +3230,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>7239874a49b100107f440d3abf7428b3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
         <ui_id>cbcfa2ce-6c65-4b97-8182-5ee62cd200a2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7239874a49b100107f440d3abf7428b3"/>
@@ -3259,10 +3259,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>ba39874a49b100107f440d3abf7428b4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
-        <value>state=2</value>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
+        <value>state=16</value>
         <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=7239874a49b100107f440d3abf7428b3"/>
@@ -3317,10 +3317,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>ba39874a49b100107f440d3abf7428b6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
         <ui_id>0f305f51-c16e-420b-a7d8-2eb4affde136</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ba39874a49b100107f440d3abf7428b6"/>
@@ -3404,10 +3404,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-20 06:35:22</sys_created_on>
         <sys_id>ee39874a49b100107f440d3abf7428ae</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-20 06:35:22</sys_updated_on>
+        <sys_updated_on>2019-12-20 10:18:42</sys_updated_on>
         <ui_id>f095202f-4e1b-4776-b730-286af0015c96</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ee39874a49b100107f440d3abf7428ae"/>
