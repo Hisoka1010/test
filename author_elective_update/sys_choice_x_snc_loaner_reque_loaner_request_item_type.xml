@@ -1,77 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="item_type" table="x_snc_loaner_reque_loaner_request" version="3">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>item_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Laptop</label>
-            <language>en</language>
-            <name>x_snc_loaner_reque_loaner_request</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-19 07:08:50</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>5347827101f540107f444f556d194ecc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-19 07:08:50</sys_updated_on>
-            <value>cmdb_ci_laptop</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>item_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Mobile Phone</label>
-            <language>en</language>
-            <name>x_snc_loaner_reque_loaner_request</name>
-            <sequence>1</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-19 07:08:50</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>9347827101f540107f444f556d194ece</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-19 07:08:50</sys_updated_on>
-            <value>cmdb_ci_mobile_device</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>item_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Projector</label>
-            <language>en</language>
-            <name>x_snc_loaner_reque_loaner_request</name>
-            <sequence>2</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-19 07:08:50</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>5f47827101f540107f444f556d194ecf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-19 07:08:50</sys_updated_on>
-            <value>cmdb_ci_projector</value>
-        </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
+    <sys_choice action="DELETE" field="item_type" table="x_snc_loaner_reque_loaner_request" version="3">
+        <sys_choice_set action="DELETE">
             <element>item_type</element>
             <name>x_snc_loaner_reque_loaner_request</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-19 07:08:50</sys_created_on>
-            <sys_id>9b47827101f540107f444f556d194ecc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>item_type</sys_name>
-            <sys_package display_value="Loaner Request" source="x_snc_loaner_reque">28c77da901fd00107f444f556d194eb1</sys_package>
+            <sys_class_name/>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_id/>
+            <sys_mod_count/>
+            <sys_name/>
+            <sys_package/>
             <sys_policy/>
-            <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
-            <sys_update_name>sys_choice_x_snc_loaner_reque_loaner_request_item_type</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-19 07:08:50</sys_updated_on>
+            <sys_scope/>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2019-12-19 13:31:33</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application/>
+        <file_path/>
+        <instance_id>0a9c8d011bf90c90d9c41f861a4bcb50</instance_id>
+        <instance_name>adf-dec18prn-dev-009</instance_name>
+        <name>sys_choice_x_snc_loaner_reque_loaner_request_item_type</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="DELETE" field="item_type" table="x_snc_loaner_reque_loaner_request" version="3"><sys_choice_set action="DELETE"><element>item_type</element><name>x_snc_loaner_reque_loaner_request</name><sys_class_name/><sys_created_by/><sys_created_on/><sys_id/><sys_mod_count/><sys_name/><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by/><sys_updated_on>2019-12-19 13:31:33</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-1503328790</payload_hash>
+        <record_name>Task.item_type</record_name>
+        <reverted_from/>
+        <source>2cc77da901fd00107f444f556d194eb3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-19 13:31:33</sys_created_on>
+        <sys_id>51ee5f3d017940107f444f556d194e4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f1e5b3b1d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-19 13:31:33</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>d9ee5f3d25794010dcbcbc63f33a5f4e</update_guid>
+        <update_guid_history>d9ee5f3d25794010dcbcbc63f33a5f4e:-1503328790,d5ee5f3d6079401011788ac3b4348f4b:-667220115,95ee5f3de8794010d1aab1cfd5e15c48:1820936217,57478271cdf540109b76504afb0dc3d2:714687851</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-19 13:31:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>8beedf3d017940107f444f556d194e15</sys_id>
+        <sys_metadata>8beedf3d017940107f444f556d194e15</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>item_type</sys_name>
+        <sys_package display_value="Loaner Request" source="x_snc_loaner_reque">28c77da901fd00107f444f556d194eb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">28c77da901fd00107f444f556d194eb1</sys_scope>
+        <sys_scope_delete display_value="">18bca101ea5147668869a1eebaee5244</sys_scope_delete>
+        <sys_update_name>sys_choice_x_snc_loaner_reque_loaner_request_item_type</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_snc_loaner_reque_loaner_request_item_type">51ee5f3d017940107f444f556d194e4f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-19 13:31:42</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>
